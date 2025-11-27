@@ -1,0 +1,46 @@
+@import "tailwindcss";
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.leaflet-container {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+canvas#bg {
+    background-color: #111B3F !important;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background: #111b3f !important;
+    color: #fff !important;
+}
+
+a.leaflet-popup-close-button span {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -7px;
+    position: absolute;
+    right: -5px;
+}
+
+img.leaflet-marker-icon {
+    width: 46px !important;
+    margin-top: -33px;
+    margin-left: -22px;
+}
