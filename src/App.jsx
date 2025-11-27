@@ -1,5 +1,5 @@
 import React from "react";
-import MapView from "./components/mapview";
+import MapView from './components/MapView';
 import BackgroundAnimation from "./components/BackgroundAnimation";
 import "remixicon/fonts/remixicon.css";
 import './index.css'
